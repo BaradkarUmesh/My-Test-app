@@ -1,0 +1,20 @@
+Screen2 As screen:
+    OnVisible: =
+
+    Form1 As form:
+        X: =40
+        Y: =40
+        ZIndex: =1
+
+    DatePicker1 As datepicker:
+        X: =60
+        Y: =60
+        ZIndex: =2
+
+    Button1 As button:
+        OnSelect: =Navigate(Screen1)
+        Text: ="Back"
+        X: =990
+        Y: =316
+        ZIndex: =3
+
